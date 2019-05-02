@@ -15,5 +15,12 @@
         "psr-4": {
             "lmi\\nirbhay\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "lmi\\contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
